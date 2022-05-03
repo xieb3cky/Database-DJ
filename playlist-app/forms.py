@@ -9,7 +9,6 @@ from flask_wtf import FlaskForm
 class PlaylistForm(FlaskForm):
     """Form for adding playlists."""
 
-    # Add the necessary code to use this form
     
     name = StringField(
         "Name",
@@ -22,8 +21,6 @@ class PlaylistForm(FlaskForm):
 
 class SongForm(FlaskForm):
     """Form for adding songs."""
-
-    # Add the necessary code to use this form
     
     title = StringField(
         "Title",
@@ -35,7 +32,6 @@ class SongForm(FlaskForm):
     )
 
 
-# DO NOT MODIFY THIS FORM - EVERYTHING YOU NEED IS HERE
 class NewSongForPlaylistForm(FlaskForm):
     """Form for adding a song to playlist."""
 
